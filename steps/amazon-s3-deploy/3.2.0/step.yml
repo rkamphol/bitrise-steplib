@@ -12,7 +12,7 @@ support_url: https://github.com/bitrise-io/steps-amazon-s3-deploy/issues
 published_at: 2015-10-20T12:49:19.364436458+02:00
 source:
   git: https://github.com/rkamphol/steps-amazon-s3-deploy.git
-  commit: 923709f9e921f929e70d3ba409384ce5b3323ec5 
+  commit: 5a44bd0ae402f42f7c91d7791b3c5cc967e99f17 
 host_os_tags:
 - osx-10.9
 - osx-10.10
