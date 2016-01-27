@@ -7,12 +7,12 @@ description: |-
   This Step requires an Amazon S3 account.
   To register an Amazon S3 account, [click here](http://aws.amazon.com/s3/).
 website: https://github.com/bitrise-io/steps-amazon-s3-deploy
-source_code_url: https://github.com/bitrise-io/steps-amazon-s3-deploy
+source_code_url: https://github.com/rkamphol/steps-amazon-s3-deploy
 support_url: https://github.com/bitrise-io/steps-amazon-s3-deploy/issues
 published_at: 2015-10-20T12:49:19.364436458+02:00
 source:
-  git: https://github.com/bitrise-io/steps-amazon-s3-deploy.git
-  commit: 0695e6a76c1a9e16ee7e3b6e98830b20109410cd
+  git: https://github.com/rkamphol/steps-amazon-s3-deploy.git
+  commit: 923709f9e921f929e70d3ba409384ce5b3323ec5 
 host_os_tags:
 - osx-10.9
 - osx-10.10
@@ -85,6 +85,14 @@ inputs:
     is_required: true
     summary: ""
     title: Amazon S3 Bucket Name
+- bucket_region: ""
+  opts:
+    description: ""
+    is_dont_change_value: false
+    is_expand: true
+    is_required: true
+    summary: ""
+    title: Amazon S3 Bucket Region
 - opts:
     description: |-
       Optional, if no value specified then the default will be:
